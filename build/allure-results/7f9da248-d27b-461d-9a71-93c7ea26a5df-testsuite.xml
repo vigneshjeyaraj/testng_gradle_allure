@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1485990109613" stop="1485990300854" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wms-automation</name>
+    <title>Default Suite : wms-automation</title>
+    <test-cases>
+        <test-case start="1485990125856" stop="1485990300817" status="passed">
+            <name>OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs</name>
+            <title>OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Cart Pick Non Pack"/>
+                <label name="feature" value="NALC ER Functional Tests"/>
+                <label name="host" value="LN0B2B7ZA34DC7"/>
+                <label name="thread" value="6064@LN0B2B7ZA34DC7.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

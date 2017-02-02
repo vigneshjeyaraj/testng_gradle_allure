@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tXML>
+  <Header>
+    <Source>SAP</Source>
+    <Action_Type>update</Action_Type>
+    <Batch_ID>4694668529</Batch_ID>
+    <Reference_ID>PPPTest001</Reference_ID>
+    <Message_Type>DistributionOrder</Message_Type>
+    <Company_ID>1</Company_ID>
+    <Version>2012</Version>
+    <External_Reference_ID>90e6f8b4-a266-4cb8-96d2-fdad46dba97a</External_Reference_ID>
+    <Destination>1014</Destination>
+  </Header>
+  <Message>
+    <DistributionOrder>
+      <DistributionOrderId>AT1484982461568</DistributionOrderId>
+      <OrderType>Z033</OrderType>
+      <OrderedDttm>08/18/15 00:00</OrderedDttm>
+      <DoFulfillmentStatus>Draft</DoFulfillmentStatus>
+      <BillingMethodCode>0</BillingMethodCode>
+      <ProductionScheduleRefNbr>1014</ProductionScheduleRefNbr>
+      <Priority>10</Priority>
+      <ReferenceField1>0705003255</ReferenceField1>
+      <ReferenceField3>EN</ReferenceField3>
+      <ResidentialDeliveryRequired>NEI</ResidentialDeliveryRequired>
+      <IncotermName>FCA</IncotermName>
+      <ExternalSystemPurchaseOrderNbr>TSTPO22</ExternalSystemPurchaseOrderNbr>
+      <SalesOrderNbr>TESTORD0328</SalesOrderNbr>
+      <CustomerName>0000034264</CustomerName>
+      <DcCenterNbr />
+      <FederatedStoreNbr />
+      <OriginFacilityAliasId>1014</OriginFacilityAliasId>
+      <PickupStartDttm>01/18/16 00:00</PickupStartDttm>
+      <PickupEndDttm>03/21/16 23:00</PickupEndDttm>
+      <DestinationFacilityAliasId>0000034264</DestinationFacilityAliasId>
+      <DestinationFacilityName />
+      <DestinationAddressLine1>165 EARLAND DR</DestinationAddressLine1>
+      <DestinationAddressLine2 />
+      <DestinationAddressLine3 />
+      <DestinationCity>NEW HOLLAND</DestinationCity>
+      <DestinationCountry>US</DestinationCountry>
+      <DestinationStateOrProvince>PA</DestinationStateOrProvince>
+      <DestinationPostalCode>17557</DestinationPostalCode>
+      <DeliveryStartDttm>03/28/16 00:00</DeliveryStartDttm>
+      <DeliveryEndDttm>03/31/16 23:00</DeliveryEndDttm>
+      <DestinationContactName />
+      <DestinationContactTelephoneNbr>717-355-0571-6</DestinationContactTelephoneNbr>
+      <DestinationContactEmailAddress />
+      <DestinationShipThruFacilityAliasId />
+      <DestinationGlobalLocationNbr>38131</DestinationGlobalLocationNbr>
+      <LpnCubingIndicator>51</LpnCubingIndicator>
+      <PrepackCubingIndicator>2</PrepackCubingIndicator>
+      <ShipGroupId />
+      <ShipGroupSequence />
+      <HasDocumentsOnly>false</HasDocumentsOnly>
+      <BillToFacilityAliasId>0000034264</BillToFacilityAliasId>
+      <BillToFacilityName>GOOD'S STORE INC</BillToFacilityName>
+      <BillToAddressLine1 />
+      <BillToAddressLine2>165 EARLAND DR</BillToAddressLine2>
+      <BillToAddressLine3 />
+      <BillToCity>NEW HOLLAND</BillToCity>
+      <BillToCountryCode>US</BillToCountryCode>
+      <BillToStateOrProv>PA</BillToStateOrProv>
+      <BillToPostalCode>17557</BillToPostalCode>
+      <BillToTelephoneNbr>610-779-2000</BillToTelephoneNbr>
+      <RouteType1 />
+      <MarkFor />
+      <ARAcctNbr>0000034264</ARAcctNbr>
+      <ARCode>N</ARCode>
+      <AdvertisingCode>N</AdvertisingCode>
+      <SchedDlvryEndDate>03/21/16 23:00</SchedDlvryEndDate>
+      <DistributionOrderType>Customer Order</DistributionOrderType>
+      <DsgShipVia />
+      <TaxId />
+      <ProcessInfo>
+        <RefTextField1 />
+        <RefTextField2 />
+        <RefTextField3>00</RefTextField3>
+        <RefTextField4>N</RefTextField4>
+        <RefTextField5>01</RefTextField5>
+        <RefTextField6>1000</RefTextField6>
+        <RefTextField7>001</RefTextField7>
+        <RefTextField8>012</RefTextField8>
+        <RefTextField9>06</RefTextField9>
+        <RefTextField10>053</RefTextField10>
+        <RefNumberField1>0</RefNumberField1>
+        <CRefTextField6>N</CRefTextField6>
+        <CRefTextField7>N</CRefTextField7>
+      </ProcessInfo>
+      <Comment>
+        <NoteType>LB</NoteType>
+        <NoteCode>CurrCode</NoteCode>
+        <CommentText>USD</CommentText>
+      </Comment>
+      <Comment>
+        <NoteType>CUSTOMER</NoteType>
+        <NoteCode>PL-SHPMT</NoteCode>
+      </Comment>
+      <CustomFieldList>
+        <CustomField>
+          <Name>CSRUserid</Name>
+          <Value>BTC_USA_SL</Value>
+        </CustomField>
+        <CustomField>
+          <Name>POReqd</Name>
+          <Value>N</Value>
+        </CustomField>
+      </CustomFieldList>
+      <LineItem>
+        <DoLineNbr>900001</DoLineNbr>
+        <ItemName>833414-105-3Y</ItemName>
+        <DoLineStatus>Draft</DoLineStatus>
+        <DeliveryStartDttm>08/18/15 00:00</DeliveryStartDttm>
+        <ReferenceField1>PR</ReferenceField1>
+        <Price>69.16</Price>
+        <PurchaseOrderNbr>TEST04122016</PurchaseOrderNbr>
+        <PurchaseOrderLineNbr />
+        <ManufacturingDttm>01/18/16 00:00</ManufacturingDttm>
+        <Quantity>
+          <OrderQty>3</OrderQty>
+          <QtyUOM>Unit</QtyUOM>
+        </Quantity>
+        <LineProcessInfo>
+          <LineRefTextField1>20</LineRefTextField1>
+          <LineRefTextField3>N</LineRefTextField3>
+          <LineRefTextField4>ACT</LineRefTextField4>
+          <LineRefTextField5>N</LineRefTextField5>
+          <LineRefTextField6 />
+          <LineRefTextField7>N</LineRefTextField7>
+          <LineRefTextField8>0045029278</LineRefTextField8>
+          <LineRefTextField9>15.000</LineRefTextField9>
+          <LineRefNumberField1>0.00</LineRefNumberField1>
+        </LineProcessInfo>
+        <InventoryAttributes>
+          <CountryOfOrigin>*</CountryOfOrigin>
+          <ItemAttribute1>01000</ItemAttribute1>
+        </InventoryAttributes>
+      </LineItem>
+    </DistributionOrder>
+  </Message>
+</tXML>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WMS NALC Functional Tests" verbose="1" >
+    <test name="NALC Functional Tests" preserve-order="true">
+        <classes>
+            <class name="functional.specs.NALCFunctionalSpec"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>

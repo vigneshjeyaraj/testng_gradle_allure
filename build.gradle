@@ -1,0 +1,97 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+ext {
+    seleniumVersion = '2.42.0'
+    jacksonVersion = '1.9.3'
+    localDrivers = ["chrome", "ie", "firefox", "safari"]
+    aspectjVersion='1.8.8'
+    allureVersion='1.4.23'
+}
+
+configurations {
+    agent
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://artifactory-gtms.nike.com/artifactory/libs-release/'
+        }
+    }
+}
+// In this section you declare where to find the dependencies of your project
+repositories {
+    maven {
+        url 'http://artifactory-gtms.nike.com/artifactory/libs-release/'
+    }
+    mavenCentral()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.13'
+    compile 'com.oracle:ojdbc14:10.2.0.4.0'
+    agent "org.aspectj:aspectjweaver:${aspectjVersion}"
+
+    testCompile "ru.yandex.qatools.allure:allure-testng-adaptor:${allureVersion}"
+    compile 'org.jdom:jdom:2.0.2'
+    // Use TestNG framework, also requires calling test.useTestNG() below
+    testCompile 'org.testng:testng:6.9.12'
+    testCompile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion"
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion",
+            "org.seleniumhq.selenium:selenium-support:$seleniumVersion",
+            "org.apache.commons:commons-lang3:3.1",
+            "commons-io:commons-io:2.5",
+            "org.codehaus.jackson:jackson-mapper-asl:$jacksonVersion"
+    // Drivers
+    localDrivers.each { driver ->
+        testCompile "org.seleniumhq.selenium:selenium-$driver-driver:$seleniumVersion"
+    }
+}
+
+task dbTest(type: Test, description: "Run Query and update the Test XML") {
+    doFirst {
+        jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    }
+    systemProperty "RESOURCES_DIR", "${projectDir}/src/test/resources"
+    systemProperty "BUILD_RESOURCES_DIR", "${buildDir}/resources/test/"
+    if ( project.hasProperty("test.single")) {
+        systemProperty "test.single", System.getProperty("test.single")
+    }
+    useTestNG()
+    options.suites("src/test/resources/db/DBtestNG.xml")
+}
+
+task POSTXMLTest(type: Test, overwrite: true, dependsOn: dbTest, description: "POST XML request in WMS") {
+    doFirst {
+        jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    }
+    systemProperty "RESOURCES_DIR", "${projectDir}/src/test/resources"
+    systemProperty "BUILD_RESOURCES_DIR", "${buildDir}/resources/test/"
+    if ( project.hasProperty("test.single")) {
+        systemProperty "test.single", System.getProperty("test.single")
+    }
+    useTestNG()
+    options.suites("src/test/resources/data/DataTestNG.xml")
+}
+
+task functionalTest(type: Test, overwrite: true, dependsOn: POSTXMLTest, description: "WMS Functional Tests") {
+    doFirst {
+        jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    }
+    systemProperty "RESOURCES_DIR", "${projectDir}/src/test/resources"
+    systemProperty "BUILD_RESOURCES_DIR", "${buildDir}/resources/test/"
+    if ( project.hasProperty("test.single")) {
+        systemProperty "test.single", System.getProperty("test.single")
+    }
+    useTestNG()
+    options.suites("src/test/resources/functional/demoTestNG.xml")
+}
+
