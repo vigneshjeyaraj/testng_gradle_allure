@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="WMS Test Data XML POST" verbose="1" >
-    <test name="NALC ER POST XML Spec" preserve-order="true">
-        <classes>
-            <class name="data.specs.NALCPostXMLSpec"/>
-        </classes>
-    </test> <!-- Test -->
-</suite>

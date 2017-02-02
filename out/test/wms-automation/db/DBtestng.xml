@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="WMS SQL Query" verbose="1" >
-    <test name="NALC ER Query Spec" preserve-order="true">
-        <classes>
-            <class name="db.specs.NALCERQuerySpec"/>
-        </classes>
-    </test> <!-- Test -->
-</suite>

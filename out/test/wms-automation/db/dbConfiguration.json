@@ -1,8 +1,0 @@
-[
-  {
-    "environment": "NALCER",
-    "hostName": "jdbc:oracle:thin:@wc1014er.cz8mdzpqprux.us-east-1.rds.amazonaws.com:1521:WC1014ER",
-    "userId": "READONLY_NIKESUPPORT",
-    "password": "READONLY_NIKESUPPORT"
-  }
-]

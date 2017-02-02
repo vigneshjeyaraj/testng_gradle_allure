@@ -2,161 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178a8014-87f8-42a0-b057-f9dc47d4163d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/data/specs/NALCPostXMLSpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/db/entities/DBConfiguration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/db/entities/DBQuery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/db/specs/DBBaseSpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/db/specs/NALCERQuerySpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/entities/NALCERData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/entities/NALCERResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/entities/WMSConstants$Status.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/entities/WMSConstants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/BasePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/DistributionOrderPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/DistributionOrdersPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/LoginPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/Navigation$Menu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/Navigation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/PostMessagePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/RunWavePage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/RunWavesPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/TasksPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/pages/WavesPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/specs/AutomationBaseSpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/functional/specs/NALCFunctionalSpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/utils/DBUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/utils/DriverUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/utils/JsonUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/utils/TestUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/utils/XMLUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/wms-automation.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_8081596188721467960_tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_8688090302607908734_tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cglib_cglib_nodep_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_oracle_ojdbc14_10_2_0_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_core_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_platform_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tika_tika_core_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_mapper_asl_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jdom_jdom_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20080701.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_2_42_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_testng_testng_6_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webbitserver_webbit_0_4_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_java_adaptor_api_1_4_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_java_annotations_1_4_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_java_aspects_1_4_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_model_1_4_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_testng_adaptor_1_4_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_properties_properties_loader_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/wms-automation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/wms-automation_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/wms-automation_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/allure-results/3ea8b72d-3e5d-49d9-a1e8-183c6e256ee7-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/allure-results/7f9da248-d27b-461d-9a71-93c7ea26a5df-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/allure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/data/DataTestNG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/data/nalc/OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/db/DBtestng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/db/dbConfiguration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/db/nalc-queries.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/functional/NALCtest-data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/functional/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/test/functional/demoTestNG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/allure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/data/DataTestNG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/data/nalc/OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/db/DBtestng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/db/dbConfiguration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/db/nalc-queries.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/functional/NALCtest-data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/functional/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/wms-automation/functional/demoTestNG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/data/specs/NALCPostXMLSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/db/entities/DBConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/db/entities/DBQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/db/specs/DBBaseSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/db/specs/NALCERQuerySpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/entities/NALCERData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/entities/NALCERResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/entities/WMSConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/BasePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/DistributionOrderPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/DistributionOrdersPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/LoginPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/Navigation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/PostMessagePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/RunWavePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/RunWavesPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/TasksPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/pages/WavesPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/specs/AutomationBaseSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/functional/specs/NALCFunctionalSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/JsonUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/XMLUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/data/DataTestNG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/data/nalc/OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/db/DBtestng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/db/dbConfiguration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/db/nalc-queries.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/functional/NALCtest-data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/functional/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/functional/demoTestNG.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/allure-results/3ea8b72d-3e5d-49d9-a1e8-183c6e256ee7-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/allure-results/7f9da248-d27b-461d-9a71-93c7ea26a5df-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/data/specs/NALCPostXMLSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/db/entities/DBConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/db/entities/DBQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/db/specs/DBBaseSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/db/specs/NALCERQuerySpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/entities/NALCERData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/entities/NALCERResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/entities/WMSConstants$Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/entities/WMSConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/BasePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/DistributionOrderPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/DistributionOrdersPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/LoginPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/Navigation$Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/Navigation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/PostMessagePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/RunWavePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/RunWavesPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/TasksPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/pages/WavesPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/specs/AutomationBaseSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/functional/specs/NALCFunctionalSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/utils/DBUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/utils/DriverUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/utils/JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/utils/TestUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/utils/XMLUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/wms-automation.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/allure.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/data/DataTestNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/data/nalc/OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/db/DBtestng.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/db/dbConfiguration.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/db/nalc-queries.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/functional/NALCtest-data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/functional/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/functional/demoTestNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8081596188721467960_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8688090302607908734_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/allure.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/data/DataTestNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/data/nalc/OB_1014_PW03AT_HP_12_SW_INT3_Replen_from_Cart_Pick_Non_Packs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/db/DBtestng.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/db/dbConfiguration.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/db/nalc-queries.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/functional/NALCtest-data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/functional/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/wms-automation/functional/demoTestNG.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -262,7 +168,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -652,9 +558,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -669,6 +572,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1184,6 +1090,7 @@
       <workItem from="1486008608817" duration="66000" />
       <workItem from="1486008732881" duration="976000" />
       <workItem from="1486056780448" duration="78000" />
+      <workItem from="1486057880631" duration="32000" />
     </task>
     <servers />
   </component>
@@ -1196,7 +1103,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5670000" />
+    <option name="totallyTimeSpent" value="5702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
@@ -1222,7 +1129,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23896104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2422078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
